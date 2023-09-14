@@ -8,4 +8,5 @@ void JAVI_HelloWorld() {
 }
 
 void JUAN_HelloWorld() {
+	std::cout << "Juan: Hello World" << std::endl;
 }
