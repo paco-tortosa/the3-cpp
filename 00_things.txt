@@ -4,11 +4,8 @@ git clone https://github.com/paco-tortosa/the3-cpp.git
 git pull
 
 //See commits
+git fetch
 git log --oneline --graph --all
-
-
-
-
 
 //See local pending changes
 git status
@@ -16,3 +13,5 @@ git status
 git add .
 //Commit
 git commit -m "Added ..."
+//Send changes to remote
+git push
