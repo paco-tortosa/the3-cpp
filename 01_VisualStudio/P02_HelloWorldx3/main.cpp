@@ -5,6 +5,7 @@ void PACO_HelloWorld() {
 }
 
 void JAVI_HelloWorld() {
+	std::cout << "Javi: Hello World" << std::endl;
 }
 
 void JUAN_HelloWorld() {
