@@ -9,5 +9,5 @@ void JAVI_HelloWorld() {
 }
 
 void JUAN_HelloWorld() {
-	int a = 1;
+	std::cout << "Juan: Hello World" << std::endl;
 }
