@@ -1,0 +1,18 @@
+//Clone the repo
+git clone https://github.com/paco-tortosa/the3-cpp.git
+//Update from remote
+git pull
+
+//See commits
+git log --oneline --graph --all
+
+
+
+
+
+//See local pending changes
+git status
+//Add changes 
+git add .
+//Commit
+git commit -m "Added ..."
