@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="P02_HelloWorldx3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="shared.cpp">
+    <ClCompile Include="P06_strings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
