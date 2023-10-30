@@ -26,7 +26,7 @@ int main()
 				<< cEmployee_Paco.m_strBirthPlace 
 				<< (cEmployee_Paco.m_bMarried?",":", not") 
 				<< " married, " 
-				<< static_cast<uint8_t>(cEmployee_Paco.m_u8Age)
+				<< cEmployee_Paco.m_u8Age
 				<< " years old."
 				<< " He wants a salary of " 
 				<< cEmployee_Paco.m_dDesiredYearSalary
@@ -39,7 +39,7 @@ int main()
 				<< cEmployee_Javi.m_strBirthPlace 
 				<< (cEmployee_Javi.m_bMarried?",":", not") 
 				<< " married, " 
-				<< static_cast<uint8_t>(cEmployee_Javi.m_u8Age)
+				<< cEmployee_Javi.m_u8Age
 				<< " years old."
 				<< " He wants a salary of " 
 				<< cEmployee_Javi.m_dDesiredYearSalary
@@ -52,7 +52,7 @@ int main()
 				<< cEmployee_Juan.m_strBirthPlace 
 				<< (cEmployee_Juan.m_bMarried?",":", not") 
 				<< " married, " 
-				<< static_cast<uint8_t>(cEmployee_Juan.m_u8Age)
+				<< cEmployee_Juan.m_u8Age
 				<< " years old."
 				<< " He wants a salary of " 
 				<< cEmployee_Juan.m_dDesiredYearSalary
