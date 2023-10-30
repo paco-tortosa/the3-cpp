@@ -2,8 +2,12 @@
 
 int main()
 {
-	std::string name = "Paco";
-	//Add 3 additional ways of initializing a string ...
-	..
-    std::cout << "Hello " << name << std::endl;
+	std::string namePaco = "Paco";
+	std::string nameJuan("Juan");
+	std::string nameJavi;
+	nameJavi = "Javi";
+
+    std::cout << "El nombre de Paco es " << namePaco << std::endl;
+    std::cout << "El nombre de Juan es " << nameJuan << std::endl;
+    std::cout << "El nombre de Javi es " << nameJavi << std::endl;
 }
