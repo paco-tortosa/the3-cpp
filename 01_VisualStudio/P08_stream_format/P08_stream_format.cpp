@@ -46,4 +46,26 @@ int main()
 
 	std::cout << "Am I married? "    << std::boolalpha << true << std::endl;
 	std::cout << "Are you married? " << std::boolalpha << false << std::endl;
+
+	//When 'fixed' -> setprecision sets the number of decimals to show
+	{
+		double d = 3.14159;
+		std::cout  << std::setprecision(3) << std::fixed << d << std::endl; 
+	}
+	{
+		double d = 13.14159;
+		std::cout  << std::setprecision(3) << std::fixed << d << std::endl; 
+	}
+	{
+		double d = 13.14159;
+		std::cout  << std::setprecision(0) << std::fixed << d << std::endl; 
+	}
+	{
+		double d = 1234567890.14159;
+		std::cout  << std::setprecision(0) << std::fixed << d << std::endl; 
+	}
+	{
+		double d = 1234567890;
+		std::cout  << std::setprecision(3) << std::fixed << d << std::endl; 
+	}
 }
